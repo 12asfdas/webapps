@@ -1,0 +1,235 @@
+body{
+	background-color:#F8F8FF;
+}
+nav
+{
+	background-color:#999999;
+	height:50px;
+	
+}
+nav ul
+{
+	list-style:none;
+	margin:0;
+	float:right;
+}
+nav ul li a
+{
+	line-height:50px;
+	text-decoration:none;
+	display:inline-block;
+	height:inherit;
+	color:#fff;
+}
+nav ul li,nav .logo
+{
+	display:inline-block;
+	line-height:50px;
+	margin-right:20px;
+}
+.logo
+{
+	font-size:20px;
+	font-weight:700;
+	letter-spacing:3px;
+	float:left;
+	padding-left:30px;
+}
+.logo a
+{
+	color:#fff;
+	display:inline-block;
+	text-decoration:none;
+	
+}
+.open{
+	height:40px;
+	line-height:40px;
+}
+.open .fileInput{
+	height:30px;
+	width:80px;
+	float:left;
+	margin:0px 10px;
+	padding:7px 0px;
+}
+.open .output{
+	width:80px;
+	float:right;
+	margin:0 10px;
+}
+.hr
+{
+	width:100%;
+	height:2px;
+	margin:0;
+	background:black;
+}
+.text{
+	max-width:1300px;
+	margin:0 auto;
+}
+.text .write{
+	width:40%;
+	position:relative;
+	left:50px;
+	float:left;
+	border:1px solid black; 
+	border-radius:5px 5px; 
+	
+	
+}
+.text .read{
+	width:40%; 
+	margin:0 auto;
+	float:right;
+	position:relative;
+	right:50px;
+	border:1px solid black; 
+	border-radius:5px 5px; 
+}
+#read-text , #write-text{
+	width:100%;
+	min-height:200px;
+	background-color:#FFF; 
+	overflow-y:hidden; 
+	overflow-x:hidden; 
+	font-size:0.9em;
+
+	outline: none;/*    Ïû³ýÍâ±ß¿ò*/
+	
+}
+#write-text:empty:before{
+    content: attr(placeholder);
+    color: #adadad;
+}
+#write-text:focus{
+	content:none;
+}
+#listen{
+	float:left;
+	width:5%;
+}
+.save{
+	height:40px;
+	width:100%;
+}
+
+.save a{
+	margin:auto;
+	float:right;
+	width:10%;
+	height:20px;
+	text-align:center;
+	line-height:40px;
+	
+}
+.text .write .function_write,.text .read .function_read{
+	width:100%;
+	height:35px;
+	margin:0px 0px;
+	background-color:#999999;
+	
+}
+.text .write .function_write ul,.text .read .function_read ul{
+	width:inherit;
+	display:inline;
+	
+}
+.text .write .function_write ul li,.text .read .function_read ul li{
+	width:20%;
+	height:35px;
+	list-style:none;
+	float:left;
+	position:relative;
+	text-align:left;
+	font-family:Arial;
+	font-size:0.8em;
+	
+}
+.text .write .function_write ul li a,.text .read .function_read ul li a{
+	text-decoration:none;
+	display:inline-block;
+	height:35px;
+	line-height:35px;
+	color:black;
+}
+.text .write .function_write ul li:hover{
+	color:#FFF;
+	background-color:#666;
+}
+.text .write .function_write ul li ul{
+	width:100%;
+	display:none;
+	position:absolute;
+	left:0px;
+	top:35px;
+	padding:0px;
+}
+.text .write .function_write ul li ul li{
+	float:none;
+	margin-top:2px;
+	width:100%;
+	font-size:0.8em;
+}
+@media screen and (max-width: 901px) { 
+font{
+		font-size:10px;
+	}
+} 
+@media screen and (max-width: 700px) { 
+font{
+		font-size:0.1em;
+	}
+}
+.text .write .function_write ul li:hover ul{
+	display:block;
+}
+.text .write .function_write ul li ul li a{
+	width:100%;
+	background-color:#eee;
+	
+}
+.bottom{
+	width:100%;
+	float:left;
+	height:45px;
+	line-height:40px;
+	position:relative;
+}
+.listen-stop{
+	position:absolute;
+	top:5px;
+	display:none;
+	height:40px;
+}
+.listen-wenzi{
+	position:absolute;
+	top:10px;
+	left:10%;
+	display:none;
+}
+.bottom .listen{
+	height:10px;
+	width:10px;
+}
+.bottom a{
+	text-decoration:none;
+	display:inline-block;
+	color:black;
+	height:40px;
+}
+.bottom .listen a img,.bottom .listen-stop a img{
+	height:40px;
+}
+.wenzi{
+	width:20%;
+	height:40px;
+	font-size:10px;
+}
+
+.show{
+	position:absolute;
+	right:5%;
+	top:5px;
+}

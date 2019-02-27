@@ -1,0 +1,76 @@
+body {
+}
+.signform {
+	width:30%;
+	height:50%;
+    font-family: Î¢ÈíÑÅºÚ;
+    position: fixed;
+    background-color: white;
+    border-radius: 1em;
+    text-align: center;
+    z-index: 999;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+}
+.signform form{
+	margin:0px 15px;
+}
+#registerform {
+}
+.sign-login{
+	text-align: center;
+	line-height:35px;
+	width:auto;
+	height:auto;
+	margin:0px auto;
+	font-size:20px;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+.signclose {
+	float:right;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.signinput {
+    text-align: center;
+    border-radius: 0.2em;
+    width: auto;
+    height: auto;
+    border: none;
+    background-color:#f2f2f2;
+    font-size: 20px;
+}
+.signinput::-webkit-input-placeholder {
+    font-size: 15px;
+}
+.userdiv {
+    position: relative;
+    margin-top: 80px;
+}
+.pwddiv {
+    position: relative;
+    margin-top: 20px;
+}
+.postdiv {
+    position: relative;
+    margin-top: 20px;
+}
+.postdiv button {
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 0.4em;
+    width: 50%;
+    height: auto;
+    background-color:#4CAF50;
+}
